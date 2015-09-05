@@ -4,7 +4,7 @@ namespace yii\base;
 
 use Yii;
 
-class Object
+class Object implements Configurable
 {
     /**
      * 获取静态方法调用的类名。
